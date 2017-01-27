@@ -29,8 +29,4 @@ The log contents will show a list containging the file and line numbers of suspe
 ⚠ extract(){} FOUND!
 ==========================
 Found in files:
-~/core/controllers/mvc_controller.php:255:
-
-==========================
-==== SCAN COMPLETED ======
-==========================
+~/core/controllers/mvc_controller.php:255
