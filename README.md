@@ -16,7 +16,7 @@ Open the file using terminal and Drag & Drop a directory into the window.
 
 The scanner will execute showing a loading spinner and a log file will be created on your desktop named "php_scan.log".  The log will open automatically by launching Console.app  with the new log file as soon as the process is complete.
 
-The log contents will show a list containging the file and line numbers of suspected malicious function executions.  You can then eximine the files yourself to see how the function executes.
+The log contents will show a list containing the file and line numbers of suspected malicious function executions.  You can then eximine the files yourself to see how the function executes.
 
 
 
