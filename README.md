@@ -9,6 +9,7 @@ knowledge of their system. If something doesn't look right, backup the suspected
 storage device and delete original the file from your web server. A lot of times, these shady files can
 be reverse engineered to provide a unique insight into the vulnerability.
 
+Designed for OSX, but can be adapted to your environment by specifying the correct "Console" application to open after scanning. (line:230)
 
 ## Directions
 
