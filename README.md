@@ -10,7 +10,7 @@ storage device and delete original the file from your web server. A lot of times
 be reverse engineered to provide a unique insight into the vulnerability.
 
 
-#Directions
+## Directions
 
 Open the file using terminal and Drag & Drop a directory into the window.
 
@@ -18,8 +18,109 @@ The scanner will execute showing a loading spinner and a log file will be create
 
 The log contents will show a list containing the file and line numbers of suspected malicious function executions.  You can then eximine the files yourself to see how the function executes.
 
-
-
+~~~~
+  apache_child_terminate
+  base64_decode
+  bzopen
+  chgrp
+  chmod
+  chown
+  copy
+  disk_free_space
+  disk_total_space
+  diskfreespace
+  exif_imagetype
+  exif_read_data
+  exif_thumbnail
+  extract
+  file_exists
+  file_get_contents
+  file_put_contents
+  file
+  fileatime
+  filectime
+  filegroup
+  fileinode
+  filemtime
+  fileowner
+  fileperms
+  filesize
+  filetype
+  fopen
+  fsockopen
+  ftp_get
+  ftp_nb_get
+  ftp_nb_put
+  ftp_put
+  get_cfg_var
+  get_current_user
+  getcwd
+  getenv
+  getimagesize
+  getlastmo
+  getmygid
+  getmyinode
+  getmypid
+  getmyuid
+  glob
+  gzfile
+  gzopen
+  hash_file
+  hash_hmac_file
+  hash_update_file
+  highlight_file
+  ini_set
+  iptcembed
+  is_dir
+  is_executable
+  is_file
+  is_link
+  is_readable
+  is_uploaded_file
+  is_writable
+  is_writeable
+  lchgrp
+  lchown
+  link
+  linkinfo
+  lstat
+  md5_file
+  mkdir
+  move_uploaded_file
+  parse_ini_file
+  pathinfo
+  pfsockopen
+  phpinfo
+  posix_getlogin
+  posix_kill
+  posix_mkfifo
+  posix_mkfifo
+  posix_setpgid
+  posix_setsid
+  posix_setuid
+  posix_ttyname
+  proc_close
+  proc_get_status
+  proc_nice
+  proc_terminate
+  putenv
+  read_exif_data
+  readfile
+  readgzfile
+  readlink
+  realpath
+  rename
+  rmdir
+  sha1_file
+  show_source
+  SplFileObject->__construct
+  stat
+  symlink
+  tempnam
+  tmpfile 
+  touch
+  unlink
+~~~~
 
 ==========================
 ==== PHP SCAN RESULTS ====
