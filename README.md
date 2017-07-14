@@ -122,16 +122,3 @@ The log contents will show a list containing the file and line numbers of suspec
   touch
   unlink
 ~~~~
-
-==========================
-==== PHP SCAN RESULTS ====
-==========================
-
-==========================
-⚠ extract(){} FOUND!
-==========================
-Found in files:
-
-~/core/controllers/mvc_controller.php:255
-
-~/core/controllers/base_controller.php:255
